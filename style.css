@@ -36,6 +36,7 @@ span{
 }
 
 header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,13 +52,13 @@ header {
     margin: 3px;
 }
 
-.left-navegation {
+#cabeca {
     display: flex;
     align-items: center;
     margin-left: 50px;
 }
 
-.left-navegation img {
+#cabeca img {
     height: 60px;
     width: auto;
 }
@@ -87,7 +88,11 @@ button:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
-    
+    flex-direction: column;
+}
+
+#capa img{
+    width: 40px;
 }
 
 #feedback{
